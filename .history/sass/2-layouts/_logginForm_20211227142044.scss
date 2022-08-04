@@ -1,0 +1,60 @@
+#form-box {
+    background-color: #FFF;
+    border: 1px solid #DBDBDB;
+    width: 22rem;
+    margin-top: 2rem;
+
+    #logo-insta {
+        width: 11rem;
+        height: 3rem;
+        margin: 2rem auto 0.75rem;
+        background-color: #FFF;
+    }
+}
+
+#login-form {
+    margin-top: 1.25rem;
+
+    input {
+        display: block;
+        font-size: 0.75rem;
+        padding: 0.75rem 0.5rem;
+        background-color: #FAFAFA;
+        border: 1px solid #DBDBDB;
+        border-radius: 3px;
+        width: 15rem;
+        margin: 5px auto;
+
+        &[type="submit"] {
+            background-color: #B2DFFC;
+            color: #FFF;
+            margin-top: 1rem;
+            border-radius: 5px;
+            height: 2rem;
+            border-color: #B2DFFC;
+            font-size: 0.8rem;
+            padding: 0;
+            font-weight: 700;
+            cursor: pointer;
+        }
+    }
+}
+
+/* SEPARATOR */
+.separator {
+    position: relative;
+
+    .line {
+        border-top: 1px solid #DBDBDB;
+        width: 15rem;
+        margin: 1.9rem auto 2.3rem;
+    }
+
+    span {
+        position: absolute;
+        text-transform: uppercase;
+        color: #BBB;
+        width: 3rem;
+        top: -6px
+    }
+}
